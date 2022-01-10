@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>Responsive Counter Up</title>
+</head>
+<body>
+    <div class="home-image"></div>
+    <div class="wrapper">
+        <div class="title">Responsive Counter up Animation</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi delectus ipsa non nostrum ex deleniti voluptas aperiam accusamus sit saepe laborum beatae magnam mollitia, iusto reprehenderit possimus esse necessitatibus sunt explicabo. Adipisci veritatis blanditiis consequuntur nobis! Aut voluptate laudantium dolorum molestias ipsa fugit ullam. Reiciendis amet tempore aliquam obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis neque nesciunt impedit rerum cum id voluptas in repellat, eveniet officiis obcaecati earum, totam numquam incidunt enim sit minus deleniti dicta deserunt expedita mollitia? Reprehenderit fugiat explicabo optio accusantium inventore repellat ullam, odio architecto quisquam hic vel ea illo perspiciatis ab. Sit magnam repellat aliquid nam dignissimos? Beatae voluptas sequi assumenda sit veniam! Iure perspiciatis, omnis adipisci tempore quos recusandae. Nulla, asperiores. Dolore odit eos nam hic! Natus quasi laudantium odio dignissimos id eius magni cumque, doloremque, iure nobis distinctio consequatur illum necessitatibus ullam labore exercitationem, veniam voluptate facere ipsa perferendis! Dolorum possimus corporis debitis dolore dolorem quod. Atque ipsam quae blanditiis, quos aliquam fugit quas distinctio porro a, nam aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio deserunt cumque iste alias quaerat quis assumenda dolorem ullam velit fuga aperiam consequuntur in, dolores et doloribus? Officia animi quo, eos perspiciatis ea praesentium dolorem optio nihil quae rerum placeat dicta mollitia sequi minus laudantium dignissimos aspernatur velit non necessitatibus in voluptatem corporis quaerat unde? Explicabo aspernatur dolor facere modi! Provident similique natus sint quam suscipit, assumenda magnam culpa nemo esse sunt quis corrupti tempora. Magnam, voluptate inventore perspiciatis delectus praesentium voluptatum commodi error tenetur ex, soluta maxime ipsa dolores voluptatibus consequuntur? Debitis quam doloremque, repellendus minima aperiam fugit ea.</p>
+        
+    </div>
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fas fa-history"></i></div>
+                <div class="counter">615</div>
+                <div class="text">Working Houres</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-gift"></i></div>
+                <div class="counter">202</div>
+                <div class="text">Completed Projects</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <div class="counter">125</div>
+                <div class="text">Happy Clients</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-award"></i></div>
+                <div class="counter">65</div>
+                <div class="text">Awards Received</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- for counter -->
+    <script>
+        $(document).ready(function(){
+            $(".counter").counterUp({
+                delay:10,
+                time:1000
+            });
+        });
+    </script>
+</body>
+</html>
